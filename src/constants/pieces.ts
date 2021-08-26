@@ -69,62 +69,62 @@ export const initialPieces: IPiece[] = [
    *  red pieces
    */
   makeRedPiece({
-    id: 1,
+    id: 13,
     position: Position.A3,
     isKing: false,
   }),
   makeRedPiece({
-    id: 2,
+    id: 14,
     position: Position.C3,
     isKing: false,
   }),
   makeRedPiece({
-    id: 3,
+    id: 15,
     position: Position.E3,
     isKing: false,
   }),
   makeRedPiece({
-    id: 4,
+    id: 16,
     position: Position.G3,
     isKing: false,
   }),
   makeRedPiece({
-    id: 5,
+    id: 17,
     position: Position.B2,
     isKing: false,
   }),
   makeRedPiece({
-    id: 6,
+    id: 18,
     position: Position.D2,
     isKing: false,
   }),
   makeRedPiece({
-    id: 7,
+    id: 19,
     position: Position.F2,
     isKing: false,
   }),
   makeRedPiece({
-    id: 8,
+    id: 20,
     position: Position.H2,
     isKing: false,
   }),
   makeRedPiece({
-    id: 9,
+    id: 21,
     position: Position.A1,
     isKing: false,
   }),
   makeRedPiece({
-    id: 10,
+    id: 22,
     position: Position.C1,
     isKing: false,
   }),
   makeRedPiece({
-    id: 11,
+    id: 23,
     position: Position.E1,
     isKing: false,
   }),
   makeRedPiece({
-    id: 12,
+    id: 24,
     position: Position.G1,
     isKing: false,
   }),

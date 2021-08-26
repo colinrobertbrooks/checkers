@@ -1,1 +1,2 @@
-export * from "./board";
+export * from "./square";
+export * from "./piece";

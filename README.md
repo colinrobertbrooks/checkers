@@ -20,7 +20,7 @@
 
 ### Deploy
 
-`$ npm run deploy -- TODO`
+`$ npm run deploy`
 
 ### Boilerplate
 

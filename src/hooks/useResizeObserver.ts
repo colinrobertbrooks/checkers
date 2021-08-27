@@ -5,7 +5,7 @@ import {
   useCallback,
   useLayoutEffect,
 } from "react";
-// import ResizeObserver from "resize-observer-polyfill"; // TODO: install
+import ResizeObserver from "resize-observer-polyfill";
 
 export const useResizeObserver = (
   ref: RefObject<any> | MutableRefObject<any>,

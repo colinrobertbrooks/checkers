@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c3918d9.chunk.css",
-    "main.js": "/static/js/main.756ee66e.chunk.js",
-    "main.js.map": "/static/js/main.756ee66e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.653057c3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.653057c3.js.map",
-    "static/css/2.818011ed.chunk.css": "/static/css/2.818011ed.chunk.css",
-    "static/js/2.155c131a.chunk.js": "/static/js/2.155c131a.chunk.js",
-    "static/js/2.155c131a.chunk.js.map": "/static/js/2.155c131a.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.818011ed.chunk.css.map": "/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.7c3918d9.chunk.css.map": "/static/css/main.7c3918d9.chunk.css.map",
-    "static/js/2.155c131a.chunk.js.LICENSE.txt": "/static/js/2.155c131a.chunk.js.LICENSE.txt",
-    "static/media/black.43b83621.png": "/static/media/black.43b83621.png",
-    "static/media/red.43f6dfa7.png": "/static/media/red.43f6dfa7.png"
+    "main.css": "/checkers/static/css/main.7c3918d9.chunk.css",
+    "main.js": "/checkers/static/js/main.756ee66e.chunk.js",
+    "main.js.map": "/checkers/static/js/main.756ee66e.chunk.js.map",
+    "runtime-main.js": "/checkers/static/js/runtime-main.66131378.js",
+    "runtime-main.js.map": "/checkers/static/js/runtime-main.66131378.js.map",
+    "static/css/2.818011ed.chunk.css": "/checkers/static/css/2.818011ed.chunk.css",
+    "static/js/2.b29ba2d9.chunk.js": "/checkers/static/js/2.b29ba2d9.chunk.js",
+    "static/js/2.b29ba2d9.chunk.js.map": "/checkers/static/js/2.b29ba2d9.chunk.js.map",
+    "index.html": "/checkers/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/checkers/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.7c3918d9.chunk.css.map": "/checkers/static/css/main.7c3918d9.chunk.css.map",
+    "static/js/2.b29ba2d9.chunk.js.LICENSE.txt": "/checkers/static/js/2.b29ba2d9.chunk.js.LICENSE.txt",
+    "static/media/black.43b83621.png": "/checkers/static/media/black.43b83621.png",
+    "static/media/red.43f6dfa7.png": "/checkers/static/media/red.43f6dfa7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.653057c3.js",
+    "static/js/runtime-main.66131378.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.155c131a.chunk.js",
+    "static/js/2.b29ba2d9.chunk.js",
     "static/css/main.7c3918d9.chunk.css",
     "static/js/main.756ee66e.chunk.js"
   ]

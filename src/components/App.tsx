@@ -96,12 +96,12 @@ const App = () => {
     <div className="container">
       <h1 className="mt-4 mb-4 text-center">Checkers</h1>
       <Score
-        black={
+        countBlack={
           pieces.filter(
             (p) => p.fill === PieceFill.Black && p.position !== null
           ).length
         }
-        red={
+        countRed={
           pieces.filter((p) => p.fill === PieceFill.Red && p.position !== null)
             .length
         }

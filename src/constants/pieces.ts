@@ -1,7 +1,7 @@
 import { IPiece, Position } from "../types";
 import { makeBlackPiece, makeRedPiece } from "../utils";
 
-export const INITIAL_PIECE_COUNT = 12;
+export const INITIAL_PIECE_COUNT_PER_TEAM = 12;
 
 export const initialPieces: IPiece[] = [
   /*

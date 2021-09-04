@@ -38,7 +38,7 @@ export const validateMove = (
   // evaluate king movement (can descend or ascend regardless of fill)
   if (movedPiece.isKing) return true;
 
-  // evaluate non-king movement (black descend / red ascend)
+  // evaluate non-king movement (black descends / red ascends)
   const yIsDescending = getIsDescending(from.y, to.y);
   return pieceFillIsBlack ? yIsDescending : !yIsDescending;
 };

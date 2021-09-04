@@ -7,13 +7,8 @@ import { IPiece, PieceFill } from "../types";
 interface IPieceProps extends Pick<IPiece, "fill" | "isKing"> {}
 
 const getSrc = ({ fill, isKing }: IPieceProps): string => {
-  if (fill === PieceFill.Black) {
-    if (isKing) return blackKingSrc;
-    return blackSrc;
-  } else {
-    if (isKing) return redKingSrc;
-    return redSrc;
-  }
+  if (fill === PieceFill.Black) return isKing ? blackKingSrc : blackSrc;
+  return isKing ? redKingSrc : redSrc;
 };
 
 const Piece = (props: IPieceProps) => (

@@ -7,12 +7,7 @@ import {
 } from "react-beautiful-dnd";
 import { board, initialPieces } from "../constants";
 import { Position, IPiece, PieceFill } from "../types";
-import {
-  validateMove,
-  getJumpedPosition,
-  checkIfPiecesAreOpponents,
-  getIsKing,
-} from "../utils";
+import { validateMove, getJumpedPosition, getIsKing } from "../utils";
 import { BoardContainer, BoardRow } from "./board";
 import Square from "./Square";
 import Piece from "./Piece";
@@ -66,10 +61,8 @@ const App = () => {
      */
     const jumpedPosition = getJumpedPosition(fromPosition, toPosition);
     const jumpedPiece = jumpedPosition && getPiece(jumpedPosition);
-    const jumpedPieceIsAnOpponent = checkIfPiecesAreOpponents(
-      movedPiece,
-      jumpedPiece
-    );
+    const jumpedPieceIsAnOpponent =
+      jumpedPiece && jumpedPiece.fill !== movedPiece.fill;
 
     // can't jump an empty position
     if (jumpedPosition && !jumpedPiece) return null;

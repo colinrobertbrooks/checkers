@@ -1,6 +1,8 @@
 import { IPiece, Position } from "../types";
 import { makeBlackPiece, makeRedPiece } from "../utils";
 
+export const INITIAL_PIECE_COUNT = 12;
+
 export const initialPieces: IPiece[] = [
   /*
    *  black pieces

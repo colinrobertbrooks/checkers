@@ -11,3 +11,8 @@ export interface IPiece {
   position: Position | null;
   isKing: boolean;
 }
+
+export enum PieceRelationship {
+  Teammate,
+  Opponent,
+}

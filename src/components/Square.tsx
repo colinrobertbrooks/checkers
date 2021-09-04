@@ -8,11 +8,12 @@ interface ISquareProps extends Pick<ISquare, "fill"> {}
 const Square: React.FC<ISquareProps> = ({ fill, children }) => {
   const wrapperRef = useRef(null);
   const { width: minHeight } = useRect(wrapperRef);
-  const backgroundColor = fill === SquareFill.Dark ? "cornsilk" : "light";
+  const isDarkFill = fill === SquareFill.Dark;
+  const backgroundColor = isDarkFill ? "cornsilk" : "light";
 
   return (
     <Wrapper ref={wrapperRef} style={{ minHeight, backgroundColor }}>
-      {children}
+      {isDarkFill ? children : null}
     </Wrapper>
   );
 };

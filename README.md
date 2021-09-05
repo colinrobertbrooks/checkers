@@ -12,7 +12,7 @@
 
 ### Test
 
-`$ npm run validate`
+`$ npm test # TODO`
 
 ### Build
 

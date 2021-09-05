@@ -20,6 +20,9 @@ const App = () => {
    */
   const [pieces, setPieces] = useState<IPiece[]>(initialPieces);
 
+  const countPieces = (fill: PieceFill) =>
+    pieces.filter((p) => p.fill === fill && p.position !== null).length;
+
   const getPiece = (position: Position): IPiece | undefined =>
     pieces.find((piece) => piece.position === position);
 
@@ -90,15 +93,8 @@ const App = () => {
     <div className="container">
       <h1 className="mt-4 mb-4 text-center">Checkers</h1>
       <Score
-        countBlack={
-          pieces.filter(
-            (p) => p.fill === PieceFill.Black && p.position !== null
-          ).length
-        }
-        countRed={
-          pieces.filter((p) => p.fill === PieceFill.Red && p.position !== null)
-            .length
-        }
+        countBlack={countPieces(PieceFill.Black)}
+        countRed={countPieces(PieceFill.Red)}
       />
       <DragDropContext onDragEnd={handleMove}>
         <BoardContainer>

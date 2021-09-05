@@ -91,7 +91,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1 className="mt-4 mb-4 text-center">Checkers</h1>
+      <h1 className="mt-4 mb-2 text-center">Checkers</h1>
       <Score
         countBlack={countPieces(PieceFill.Black)}
         countRed={countPieces(PieceFill.Red)}

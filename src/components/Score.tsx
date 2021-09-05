@@ -6,7 +6,7 @@ interface IScoreProps {
 }
 
 const Score = ({ countBlack, countRed }: IScoreProps) => (
-  <div className="row mb-4 text-center">
+  <div className="row mb-3 text-center">
     <div className="col-6">
       <strong>Black:</strong> {INITIAL_PIECE_COUNT_PER_TEAM - countRed}
     </div>

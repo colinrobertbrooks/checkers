@@ -26,7 +26,6 @@ export const validateMove = (
   movedPiece: IPiece
 ): boolean => {
   const { from, to } = getCoordinates(fromPosition, toPosition);
-  const pieceFillIsBlack = movedPiece.fill === PieceFill.Black;
 
   // can't move more than two positions
   if (Math.abs(from.y - to.y) > 2) return false;
@@ -40,7 +39,7 @@ export const validateMove = (
 
   // evaluate non-king movement (black descends / red ascends)
   const yIsDescending = getIsDescending(from.y, to.y);
-  return pieceFillIsBlack ? yIsDescending : !yIsDescending;
+  return movedPiece.fill === PieceFill.Black ? yIsDescending : !yIsDescending;
 };
 
 export const getJumpedPosition = (

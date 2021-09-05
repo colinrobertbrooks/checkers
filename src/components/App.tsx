@@ -8,10 +8,11 @@ import {
 import { board, initialPieces } from "../constants";
 import { Position, IPiece, PieceFill } from "../types";
 import { validateMove, getJumpedPosition, getIsKing } from "../utils";
+import Score from "./Score";
 import { BoardContainer, BoardRow } from "./board";
 import Square from "./Square";
 import Piece from "./Piece";
-import Score from "./Score";
+import Reset from "./Reset";
 
 const App = () => {
   /*
@@ -149,6 +150,7 @@ const App = () => {
           ))}
         </BoardContainer>
       </DragDropContext>
+      <Reset reset={() => setPieces(initialPieces)} />
     </div>
   );
 };

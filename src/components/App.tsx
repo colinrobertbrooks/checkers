@@ -14,6 +14,7 @@ import Square from "./Square";
 import Piece from "./Piece";
 import Reset from "./Reset";
 
+// TODO: better dnd (++a11y)
 const App = () => {
   /*
    *  pieces

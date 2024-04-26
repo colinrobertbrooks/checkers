@@ -105,7 +105,7 @@ const App = () => {
                 const piece = getPiece(position);
                 return (
                   <Square key={position} fill={square.fill}>
-                    <Droppable droppableId={position}>
+                    <Droppable droppableId={position} isCombineEnabled={false}>
                       {({
                         innerRef: droppableInnerRef,
                         droppableProps,

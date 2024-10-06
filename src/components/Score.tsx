@@ -1,4 +1,4 @@
-import { INITIAL_PIECE_COUNT_PER_TEAM } from "../constants";
+import { INITIAL_PIECE_COUNT_PER_TEAM } from "../consts";
 
 interface IScoreProps {
   countBlack: number;

@@ -5,7 +5,7 @@ import {
   Droppable,
   Draggable,
 } from "react-beautiful-dnd";
-import { board, initialPieces } from "../constants";
+import { board, initialPieces } from "../consts";
 import { Position, IPiece, PieceFill } from "../types";
 import { validateMove, getJumpedPosition, getIsKing } from "../utils";
 import Score from "./Score";

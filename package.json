@@ -50,5 +50,9 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://colinrobertbrooks.github.io/checkers"
+  "homepage": "https://colinrobertbrooks.github.io/checkers",
+  "engines": {
+    "node": "16",
+    "npm": "8"
+  }
 }
